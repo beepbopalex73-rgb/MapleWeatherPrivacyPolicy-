@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><base href="https://d16ilfvy4mv02r.cloudfront.net/workspaces/rRSxeisp2lTfUfZcWfmdZn59S74Gqivk/7b5e50da-a73c-407d-98e9-2594ac50e18b/files/">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Maple Weather — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for Maple Weather — how the app handles information, location, third-party weather services and Premium subscriptions." />
+<meta name="theme-color" content="#0b1730" />
+<style>
+  :root{
+    --bg-0:#060d1c;
+    --bg-1:#0b1730;
+    --bg-2:#122a52;
+    --card:rgba(18,32,60,0.55);
+    --card-border:rgba(255,255,255,0.12);
+    --text:#ffffff;
+    --text-dim:#c7d3e8;
+    --text-mute:#8ea2c4;
+    --accent:#4ea1ff;
+    --accent-2:#8fd0ff;
+    --maple:#e6483d;
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    min-height:100vh;
+    background:
+      radial-gradient(1200px 600px at 15% -10%, rgba(78,161,255,0.22), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(230,72,61,0.14), transparent 55%),
+      linear-gradient(180deg, var(--bg-1) 0%, var(--bg-0) 55%, #04080f 100%);
+    background-attachment:fixed;
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    padding:0 18px 64px;
+  }
+  .wrap{max-width:860px;margin:0 auto;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    margin:34px 0 26px;
+    padding:38px 30px 34px;
+    border-radius:26px;
+    background:linear-gradient(135deg,#1f5fd6 0%,#2f86f0 48%,#5fb0ff 100%);
+    box-shadow:0 24px 60px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.28);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute; inset:0;
+    background:radial-gradient(600px 240px at 85% -20%, rgba(255,255,255,.28), transparent 70%);
+    pointer-events:none;
+  }
+  .brand{display:flex;align-items:center;gap:12px;position:relative;z-index:1;}
+  .leaf{
+    width:40px;height:40px;flex:0 0 40px;
+    filter:drop-shadow(0 3px 6px rgba(0,0,0,.35));
+  }
+  .brand-name{
+    font-size:19px;font-weight:800;letter-spacing:.2px;
+    color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.25);
+  }
+  .hero h1{
+    margin:22px 0 10px;
+    font-size:clamp(30px,5.2vw,44px);
+    line-height:1.12;
+    letter-spacing:-.6px;
+    font-weight:800;
+    position:relative;z-index:1;
+  }
+  .meta{
+    position:relative;z-index:1;
+    display:inline-flex;align-items:center;gap:9px;
+    margin-top:6px;
+    padding:7px 15px;
+    border-radius:999px;
+    background:rgba(6,16,36,0.45);
+    border:1px solid rgba(255,255,255,.22);
+    color:#eaf3ff;
+    font-size:13.5px;font-weight:600;
+    backdrop-filter:blur(6px);
+  }
+  .meta .dot{width:7px;height:7px;border-radius:50%;background:#7ff0a5;box-shadow:0 0 8px #7ff0a5;}
+
+  /* ---------- cards ---------- */
+  .card{
+    background:var(--card);
+    border:1px solid var(--card-border);
+    border-radius:var(--radius);
+    padding:26px 28px;
+    margin:16px 0;
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    box-shadow:0 12px 34px rgba(0,0,0,.28);
+  }
+  .toc h2{font-size:14px;letter-spacing:1.4px;text-transform:uppercase;color:var(--accent-2);margin:0 0 14px;}
+  .toc ol{margin:0;padding:0;list-style:none;counter-reset:toc;}
+  .toc li{counter-increment:toc;margin:2px 0;}
+  .toc a{
+    display:flex;gap:10px;align-items:baseline;
+    color:var(--text-dim);text-decoration:none;
+    padding:7px 10px;border-radius:10px;
+    font-size:15px;transition:background .15s,color .15s;
+  }
+  .toc a::before{
+    content:counter(toc) ".";
+    color:var(--text-mute);font-weight:700;min-width:22px;font-size:13px;
+  }
+  .toc a:hover{background:rgba(78,161,255,.14);color:#fff;}
+
+  section{scroll-margin-top:22px;}
+  h2.sec{
+    display:flex;gap:14px;align-items:baseline;
+    margin:0 0 12px;
+    font-size:21px;font-weight:800;letter-spacing:-.2px;color:#fff;
+  }
+  h2.sec .num{
+    flex:0 0 auto;
+    font-size:13px;font-weight:800;color:#0b1730;
+    background:linear-gradient(135deg,#7fc0ff,#4ea1ff);
+    width:28px;height:28px;border-radius:9px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 4px 12px rgba(78,161,255,.35);
+    transform:translateY(-2px);
+  }
+  p{margin:0 0 13px;color:var(--text-dim);font-size:15.5px;}
+  p:last-child{margin-bottom:0;}
+  strong{color:#fff;font-weight:700;}
+  a.inline{color:var(--accent-2);text-decoration:underline;text-underline-offset:2px;}
+  ul.clean{margin:0 0 13px;padding-left:20px;color:var(--text-dim);font-size:15.5px;}
+  ul.clean li{margin:5px 0;}
+  .note{
+    margin-top:14px;padding:13px 16px;border-radius:12px;
+    background:rgba(78,161,255,.10);
+    border:1px solid rgba(78,161,255,.28);
+    color:#dbe9ff;font-size:14px;
+  }
+
+  footer{
+    margin-top:30px;padding:22px 4px 0;
+    border-top:1px solid rgba(255,255,255,.10);
+    display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;
+    color:var(--text-mute);font-size:13px;
+  }
+  footer .fbrand{display:flex;align-items:center;gap:8px;color:var(--text-dim);font-weight:700;}
+  footer .leaf{width:18px;height:18px;flex:0 0 18px;}
+
+  @media (max-width:560px){
+    .card{padding:21px 19px;}
+    .hero{padding:30px 22px 26px;border-radius:22px;}
+  }
+  @media print{
+    body{background:#fff;color:#111;padding:0;}
+    .card{background:#fff;border-color:#ddd;box-shadow:none;backdrop-filter:none;}
+    .hero{background:#eef4ff;color:#111;box-shadow:none;}
+    .hero h1,.brand-name{color:#111;text-shadow:none;}
+    p,ul.clean,.toc a{color:#222;}
+    strong{color:#000;}
+    footer{color:#555;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="brand">
+      <svg class="leaf" viewBox="0 0 36 36" aria-hidden="true">
+        <path fill="#e6483d" d="M36 20.917c0-.688-2.895-.5-3.125-1s3.208-4.584 2.708-5.5-5.086 1.167-5.375.708c-.288-.458.292-3.5-.208-3.875s-5.25 4.916-5.917 4.292c-.666-.625 1.542-10.5 1.086-10.698-.456-.198-3.419 1.365-3.793 1.282C21.002 6.042 18.682 0 18 0s-3.002 6.042-3.376 6.125c-.374.083-3.337-1.48-3.793-1.282-.456.198 1.752 10.073 1.085 10.698C11.25 16.166 6.5 10.875 6 11.25s.08 3.417-.208 3.875c-.289.458-4.875-1.625-5.375-.708s2.939 5 2.708 5.5-3.125.312-3.125 1 8.438 5.235 9 5.771c.562.535-2.914 2.802-2.417 3.229.576.496 3.839-.83 10.417-.957V35c0 .553.448 1 1 1 .553 0 1-.447 1-1v-6.04c6.577.127 9.841 1.453 10.417.957.496-.428-2.979-2.694-2.417-3.229.562-.536 9-5.084 9-5.771z"/>
+      </svg>
+      <span class="brand-name">Maple Weather</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <div class="meta"><span class="dot"></span> Effective date: October 13, 2026</div>
+  </header>
+
+  <nav class="card toc" aria-label="Table of contents">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#s1">Introduction</a></li>
+      <li><a href="#s2">Information and Location</a></li>
+      <li><a href="#s3">Weather Information and Third-Party Services</a></li>
+      <li><a href="#s4">Premium Subscriptions and Payments</a></li>
+      <li><a href="#s5">Information Sharing</a></li>
+      <li><a href="#s6">Data Retention and Security</a></li>
+      <li><a href="#s7">Children's Privacy</a></li>
+      <li><a href="#s8">Your Choices and Privacy Requests</a></li>
+      <li><a href="#s9">Changes to This Policy</a></li>
+      <li><a href="#s10">Contact</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <section id="s1" class="card">
+      <h2 class="sec"><span class="num">1</span> Introduction</h2>
+      <p><strong>Maple Weather</strong> is a weather application. This Privacy Policy explains how Maple Weather handles information when you use the app.</p>
+      <p>We are committed to respecting your privacy and explaining how information is used to provide weather forecasts, weather maps, alerts, and Premium subscription features.</p>
+    </section>
+
+    <section id="s2" class="card">
+      <h2 class="sec"><span class="num">2</span> Information and Location</h2>
+      <p>Maple Weather may use your device's location, with your permission, to provide local weather conditions and forecasts. You can manage or disable location access through your device's settings. You may also be able to search for a city manually.</p>
+      <p>The app's actual handling of location information depends on its configuration. We will disclose whether location information is sent to a service provider, retained, or processed only on your device.</p>
+    </section>
+
+    <section id="s3" class="card">
+      <h2 class="sec"><span class="num">3</span> Weather Information and Third-Party Services</h2>
+      <p>Maple Weather may request weather forecasts, precipitation information, road conditions, maps, and weather alerts from external service providers. These providers may receive technical information needed to respond to requests, such as an IP address or requested location, according to their own privacy policies.</p>
+      <p>The specific providers used may change as the app develops.</p>
+    </section>
+
+    <section id="s4" class="card">
+      <h2 class="sec"><span class="num">4</span> Premium Subscriptions and Payments</h2>
+      <p>Maple Weather offers optional Premium subscriptions, including monthly and yearly plans. Purchases are processed through Apple's in-app purchase system.</p>
+      <p>Apple handles payment information and subscription billing under its own terms and privacy policy. Maple Weather uses the purchase information made available by Apple to determine whether Premium features should be available.</p>
+      <p>Maple Weather does not receive your full payment card details through Apple's in-app purchase system.</p>
+    </section>
+
+    <section id="s5" class="card">
+      <h2 class="sec"><span class="num">5</span> Information Sharing</h2>
+      <p>We do not sell personal information. Information may be processed by service providers when necessary to deliver weather features, operate the app, maintain security, or support subscriptions. We will update this policy if the app's data-sharing practices change.</p>
+    </section>
+
+    <section id="s6" class="card">
+      <h2 class="sec"><span class="num">6</span> Data Retention and Security</h2>
+      <p>Information is retained only as long as reasonably necessary for the purposes described in this policy, subject to applicable legal requirements. Retention periods depend on the type of information and the service involved.</p>
+      <p>We take reasonable steps to protect information, but no method of electronic storage or transmission can be guaranteed to be completely secure.</p>
+    </section>
+
+    <section id="s7" class="card">
+      <h2 class="sec"><span class="num">7</span> Children's Privacy</h2>
+      <p>Maple Weather is not intended to collect personal information from children in violation of applicable privacy laws. If you believe personal information has been collected inappropriately, contact us using the details below.</p>
+    </section>
+
+    <section id="s8" class="card">
+      <h2 class="sec"><span class="num">8</span> Your Choices and Privacy Requests</h2>
+      <p>You can manage the app's location permissions through your device settings. You may contact us to ask questions about personal information handled by Maple Weather or to request its deletion where applicable.</p>
+    </section>
+
+    <section id="s9" class="card">
+      <h2 class="sec"><span class="num">9</span> Changes to This Policy</h2>
+      <p>We may update this Privacy Policy when the app's features, service providers, or legal requirements change. The updated version will be published on our website with a revised effective date.</p>
+    </section>
+
+    <section id="s10" class="card">
+      <h2 class="sec"><span class="num">10</span> Contact</h2>
+      <p>For privacy questions or requests regarding Maple Weather, contact us through the contact information published on the Maple Weather website.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <span class="fbrand">
+      <svg class="leaf" viewBox="0 0 36 36" aria-hidden="true">
+        <path fill="#e6483d" d="M36 20.917c0-.688-2.895-.5-3.125-1s3.208-4.584 2.708-5.5-5.086 1.167-5.375.708c-.288-.458.292-3.5-.208-3.875s-5.25 4.916-5.917 4.292c-.666-.625 1.542-10.5 1.086-10.698-.456-.198-3.419 1.365-3.793 1.282C21.002 6.042 18.682 0 18 0s-3.002 6.042-3.376 6.125c-.374.083-3.337-1.48-3.793-1.282-.456.198 1.752 10.073 1.085 10.698C11.25 16.166 6.5 10.875 6 11.25s.08 3.417-.208 3.875c-.289.458-4.875-1.625-5.375-.708s2.939 5 2.708 5.5-3.125.312-3.125 1 8.438 5.235 9 5.771c.562.535-2.914 2.802-2.417 3.229.576.496 3.839-.83 10.417-.957V35c0 .553.448 1 1 1 .553 0 1-.447 1-1v-6.04c6.577.127 9.841 1.453 10.417.957.496-.428-2.979-2.694-2.417-3.229.562-.536 9-5.084 9-5.771z"/>
+      </svg>
+      Maple Weather
+    </span>
+    <span>Privacy Policy · Effective October 13, 2026</span>
+  </footer>
+
+</div>
+</body>
+</html>
